@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr; /*Here you set how many columns will be and how much of the space they will take, for example there are 3 values, meaning 3 columns, the first and the last one will take 1 space of the row, and the second one will take 4 spaces*/
+    align-items: center;
+    grid-gap: 1em; /*The gap between items*/
+  }
+  
+  .container .item:nth-child(2) {
+     text-align: center;
+  }
